@@ -1,51 +1,53 @@
 .ck.ck-editor__main > .ck-editor__editable {
-  background-color: #333;
+  background-color: #333; /* Dark gray background */
   border: none;
   outline: none;
-  color: #ddd;
+  color: #000; /* Light gray text */
 }
 
 .ck.ck-editor__main > .ck-editor__editable.ck-focused {
-  border-color: #555;
+  border-color: #555; /* Slightly lighter gray on focus */
 }
 
 .ck.ck-toolbar .ck.ck-toolbar__separator {
-  background-color: #444;
+  background-color: #444; /* Separator in dark gray */
 }
 
 .ck.ck-toolbar.ck-toolbar_grouping {
-  background-color: #444;
+  background-color: #444; /* Dark gray for toolbar background */
   border: none;
 }
 
 .ck.ck-button,
 .ck.ck-button.ck-on {
-  color: #ddd;
+  color: #ddd; /* Light gray text color */
   background-color: transparent;
 }
 
 .ck.ck-button:hover,
 .ck.ck-button.ck-off:hover,
 .ck.ck-button.ck-on:hover {
-  background-color: #555 !important;
+  background-color: #555 !important; /* Slightly lighter gray background on hover */
   cursor: pointer;
-  color: #fff;
+  color: #fff; /* White text on hover */
 }
 
 .ck-dropdown__panel .ck.ck-button.ck-off.ck-button__with-text {
-  background-color: #444 !important;
+  background-color: #444 !important; /* Dark gray for dropdown button */
 }
 
 .ck.ck-list__item {
-  background-color: #555 !important;
+  background-color: #000 !important; /* Slightly lighter gray for list items */
 }
 
 .ck-dropdown__panel .ck-dropdown__panel-visible {
-  border: 1px solid #444;
+  border: 1px solid #444; /* Dark gray border for dropdown */
+  color: #fff
 }
 
 .ck-editor__top {
   position: sticky !important;
   top: 0 !important;
-  background: #444 !important;
+  background: #444 !important; /* Dark gray background for toolbar */
+  color: #fff
 }
