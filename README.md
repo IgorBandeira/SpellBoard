@@ -13,6 +13,10 @@ Spell Board é uma aplicação de anotações, onde você pode ciar, personaliza
 <strong>*COMO FUNCIONA?*</strong>
 <br><br>
 
+
+https://github.com/IgorBandeira/SpellBoard/assets/106918230/6fdb9bb5-ec52-4ca7-b80e-44bb74643f55
+
+
 <hr>
 <div align="center">
   
