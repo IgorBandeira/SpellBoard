@@ -37,7 +37,7 @@
 }
 
 .ck.ck-list__item {
-  background-color: #000 !important; /* Slightly lighter gray for list items */
+  background-color: #444 !important; /* Slightly lighter gray for list items */
 }
 
 .ck-dropdown__panel .ck-dropdown__panel-visible {
