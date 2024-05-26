@@ -1,50 +1,51 @@
-.ck.ck-editor__main>.ck-editor__editable {
-  background-color: transparent;
-  border: none;
+.ck.ck-editor__main > .ck-editor__editable {
+  background-color: #f5f5f5;
+  border: 1px solid #dcdcdc;
   outline: none;
+  color: #333;
 }
 
-.ck.ck-editor__main>.ck-editor__editable.ck-focused {
-  border: none;
+.ck.ck-editor__main > .ck-editor__editable.ck-focused {
+  border-color: #a8a8a8;
 }
 
 .ck.ck-toolbar .ck.ck-toolbar__separator {
-  background-color: transparent;
+  background-color: #dcdcdc;
 }
 
 .ck.ck-toolbar.ck-toolbar_grouping {
-  background-color: transparent;
+  background-color: #e8e8e8;
   border: none;
 }
 
 .ck.ck-button,
 .ck.ck-button.ck-on {
-  color: white;
+  color: #333;
   background-color: transparent;
 }
 
 .ck.ck-button:hover,
 .ck.ck-button.ck-off:hover,
 .ck.ck-button.ck-on:hover {
-  background-color: transparent !important;
+  background-color: #dcdcdc !important;
   cursor: pointer;
-  color: gray;
+  color: #000;
 }
 
 .ck-dropdown__panel .ck.ck-button.ck-off.ck-button__with-text {
-  background-color: black !important;
+  background-color: #e0e0e0 !important;
 }
 
 .ck.ck-list__item {
-  background-color: black !important;
+  background-color: #f0f0f0 !important;
 }
 
 .ck-dropdown__panel .ck-dropdown__panel-visible {
-  border: none;
+  border: 1px solid #dcdcdc;
 }
 
 .ck-editor__top {
   position: sticky !important;
   top: 0 !important;
-  background: #121212 !important;
+  background: #e8e8e8 !important;
 }
